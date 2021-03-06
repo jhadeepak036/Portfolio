@@ -4,6 +4,7 @@ import MediumHeading from "../components/Hero/UI/MediumHeading";
 import Tile from "../components/Hero/UI/Tile";
 import { getImage } from "../utils/helpers";
 import Button from "../components/Hero/UI/Button";
+import "./style.css";
 
 const Qualification = (props) => {
   return (
@@ -11,7 +12,7 @@ const Qualification = (props) => {
       <MediumHeading text="Qualification" />
       <SmallHeading text="My Education" />
       <div className="flexRow align-center justify-sb">
-        <div className="meRightImgContainer">
+        <div className="qualificationImgContainer">
           <img src={getImage("chill.svg")} alt="Text" />
         </div>
         <div style={{

@@ -4,20 +4,23 @@ import { colors } from "../Style";
 import Card from "../components/Hero/UI/Card";
 import MediumHeading from "../components/Hero/UI/MediumHeading";
 import SmallHeading from "../components/Hero/UI/SmallHeading";
-import "./style.css";
 import SocialConnect from "../components/Hero/UI/SocialConnect";
 import { getImage } from "../utils/helpers";
+import "./style.css";
 
-const percentage = 70;
+const percentage = 60;
 const Expertise = (props) => {
   return (
     <div className="container" style={{ marginTop: "50px" }}>
-      <div className="meRightImgContainer">
+      <div className="expertizeImgContainer">
         <img src={getImage("chill.svg")} alt="Text" />
       </div>
       <div>
         <SmallHeading text="Expertise" />
         <MediumHeading text="Special Skills" />
+      </div>
+      <div className="expertizeImgContainer">
+        <img src={getImage("chill.svg")} alt="Text" />
       </div>
       <Card style={{ padding: "30px", width: "320px", margin: "100px auto" }}>
         <div className="flexRow align-center">

@@ -24,7 +24,7 @@ function Hero() {
           </div>
         </div>
         <div>
-          <div className="meRightImgContainer">
+          <div className="headerImgContainer">
             <img src={getImage("chill.svg")} alt="Text" />
           </div>
         </div>

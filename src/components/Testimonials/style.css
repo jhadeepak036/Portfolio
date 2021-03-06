@@ -1,6 +1,5 @@
 .testimonialImgContainer{
-    width: 200px;
-    height: 200px;
+    width: 160px;
     overflow: hidden;
     border-radius: 2px;
 }
@@ -9,10 +8,10 @@
     object-fit: contain;
 }
 .profileImgContainer{
-width: 60px;
-height: 60px;
-overflow: hidden;
-border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .profileImgContainer img{
     max-width: 100%;

@@ -1,11 +1,12 @@
 .conversationContainer{
     border-radius: 50%;
-    background: green;
+    background: #FFFFCC;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    box-shadow: -1px -1px 24px green;
+    box-shadow: -1px -1px 24px yellow;
+    border: 2px;
 }
 .conversationContainer img{
     width: 25px;

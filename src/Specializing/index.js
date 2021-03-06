@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../UI/Card";
-import MediumHeading from "../UI/MediumHeading";
-import SmallHeading from "../UI/SmallHeading";
+import Card from "../components/Hero/UI/Card";
+import MediumHeading from "../components/Hero/UI/MediumHeading";
+import SmallHeading from "../components/Hero/UI/SmallHeading";
 import "./style.css";
-import { colors } from "../../../Style";
-import Skill from "../UI/Skill";
+import { colors } from "../Style";
+import Skill from "../components/Hero/UI/Skill";
 const Specializing = (props) => {
   const skills = [
     {
