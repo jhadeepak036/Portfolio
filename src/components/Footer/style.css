@@ -1,0 +1,21 @@
+.conversationContainer{
+    border-radius: 50%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: -1px -1px 24px green;
+}
+.conversationContainer img{
+    width: 25px;
+    height: 25px;
+}
+.footerMenus a{
+ display: inline-block;
+ margin: 0 10px;
+ text-transform: uppercase;
+ color: grey;
+ font-size: 14px;
+ font-weight: 500;
+}
