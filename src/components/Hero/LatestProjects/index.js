@@ -14,6 +14,8 @@ function LatestProjects() {
     >
       <Card className="flexRow aling-center justify-sb">
         <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
           style={{
             display: "flex",
             flex: 1,
@@ -23,11 +25,17 @@ function LatestProjects() {
         >
           <SmallHeading text="portfolios" />
           <MediumHeading text="latest Project" />
-          <div className="mtb-10 flexRow" style={{justifyContent:"center"}}>
+          <div className="mtb-10 flexRow" style={{ justifyContent: "center" }}>
             <Button label="Portfolio" />
           </div>
         </div>
-        <div className="projectImgContainer">
+        <div
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="projectImgContainer"
+        >
           <img src={getImage("portfolio.jpg")} alt="Text" />
         </div>
       </Card>

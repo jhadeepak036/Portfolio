@@ -60,9 +60,11 @@ const Specializing = (props) => {
   return (
     <div className="Container">
       <Card style={{ padding: "20px" }}>
+        <div data-aos="zoom-in">
         <SmallHeading text="What I Do" />
         <MediumHeading text="Specializing in" />
-        <div className="flexRow wrap justify-sb" style={{ padding: "30px" }}>
+        </div>
+        <div data-aos="fade-up" className="flexRow wrap justify-sb" style={{ padding: "30px" }}>
           {skills.map((skill, index) => (
             <Skill
               key={index}

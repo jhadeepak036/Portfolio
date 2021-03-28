@@ -12,7 +12,7 @@ const Qualification = (props) => {
       <MediumHeading text="Qualification" />
       <SmallHeading text="My Education" />
       <div className="flexRow align-center justify-sb">
-        <div className="qualificationImgContainer">
+        <div data-aos="fade-up-right" className="qualificationImgContainer">
           <img src={getImage("chill.svg")} alt="Text" />
         </div>
         <div style={{
@@ -31,7 +31,7 @@ const Qualification = (props) => {
           <Button label="Download Resume" inverse={true} />
         </div>
         </div>
-        <div>
+        <div data-aos="fade-up-left">
           <Tile
             title="KU University"
             mediumTitle="Computer Science & Engineering"

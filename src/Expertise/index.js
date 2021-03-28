@@ -12,19 +12,16 @@ const percentage = 60;
 const Expertise = (props) => {
   return (
     <div className="container" style={{ marginTop: "50px" }}>
-      <div className="expertizeImgContainer">
+      <div data-aos="fade-down" className="expertizeImgContainer">
         <img src={getImage("chill.svg")} alt="Text" />
       </div>
-      <div>
+      <div data-aos="fade-right">
         <SmallHeading text="Expertise" />
         <MediumHeading text="Special Skills" />
       </div>
-      <div className="expertizeImgContainer">
-        <img src={getImage("chill.svg")} alt="Text" />
-      </div>
       <Card style={{ padding: "30px", width: "320px", margin: "100px auto" }}>
         <div className="flexRow align-center">
-          <div style={{ width: "80px", height: "80px" }}>
+          <div data-aos="fade-left" style={{ width: "80px", height: "80px" }}>
             <CircularProgressbar
               value={percentage}
               text={`${percentage}%`}
@@ -36,7 +33,7 @@ const Expertise = (props) => {
           </div>
           <h2 className="textColor mlr-10">Development</h2>
         </div>
-        <p className="grey font-12">
+        <p data-aos="fade-left" className="grey font-12">
           Highly recognized in the community, I can meet the challenges that
           your company will entrust me. I am a recognized expert in
           technologist.

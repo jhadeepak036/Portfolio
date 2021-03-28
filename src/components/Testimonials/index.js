@@ -7,7 +7,7 @@ import "./style.css";
 function Testimonials() {
   return (
     <div className="container">
-      <div>
+      <div data-aos="flip-left">
         <SmallHeading text="Testimonials" />
         <MediumHeading text="what people say" />
       </div>
@@ -15,7 +15,7 @@ function Testimonials() {
         className="flexRow wrap align-center justify-sb"
         style={{ padding: "50px 0" }}
       >
-        <div className="testimonialImgContainer">
+        <div data-aos="flip-right" className="testimonialImgContainer">
           <img src={getImage("chill.svg")} alt="Right" />
         </div>
         <Card style={{ width: "500px", height: "300px", padding: "30px" }}>
@@ -38,16 +38,16 @@ function Testimonials() {
             model text.
           </p>
         </Card>
-        <div className="testimonialImgContainer">
+        <div data-aos="flip-right" className="testimonialImgContainer">
           <img src={getImage("chill.svg")} alt="Left" />
         </div>
       </div>
       <Card style={{ width: "500px", margin: "100px auto", padding: "20px" }}>
-        <p className="text-center font-12 mtb-10">
+        <p data-aos="zoom-in" className="text-center font-12 mtb-10">
           Have any project in mind?{" "}
           <span className="primaryColor">Say Hello at</span>{" "}
         </p>
-        <p className="text-center font-25">jhadeepak036@gmail.com</p>
+        <p data-aos="zoom-in-up" className="text-center font-25">jhadeepak036@gmail.com</p>
       </Card>
     </div>
   );

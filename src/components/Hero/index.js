@@ -5,8 +5,8 @@ import "./style.css";
 function Hero() {
   return (
     <div className="container" style={{ marginTop: "70px" }}>
-      <div className="flexRow align-center">
-        <div>
+      <div className="flexRow justify-sb align-center">
+        <div data-aos="fade-right">
           <p className="uppercase bold-500 textColor ls-1 mtb-10">
             <span className="primaryColor">Hello,</span> I am Deepak Jha
           </p>
@@ -23,7 +23,7 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <div className="headerImgContainer">
             <img src={getImage("chill.svg")} alt="Text" />
           </div>
